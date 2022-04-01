@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Djnago API</title>
+</head>
+<body>
+    
+<p>
+<h1> #API Slugs</h1>
+<b>##### -----------------------------------------------------</b>
+<h2>#### --- add_data</h2> 
+<h3>## url == http://127.0.0.1:8000/add_data/ </h3> <br>
+
+## method == POST<br><br>
+
+<h3>## slug<br></h3>
+# name =<br>
+# email=<br>
+# password<br>
+
+<h3>## Response<br></h3>
+# {<br>
+#     "status": 200,<br>
+#     "payload": {<br>
+#         "data": [<br>
+#             {<br>
+#                 "id": 1,<br>
+#                 "name": "pradip",<br>
+#                 "email": "pradip@gmail.com",<br>
+#                 "password": "pradip12345678"<br>
+#             },<br>
+#             {<br>
+#                 "id": 2,<br>
+#                 "name": "pradip",<br>
+#                 "email": "pradip@gmail.com",<br>
+#                 "password": "pradip12345678"<br>
+#             },<br>
+#             {<br>
+#                 "id": 3,<br>
+#                 "name": "roshan",<br>
+#                 "email": "roshan@gmail.com",<br>
+#                 "password": "rohan1234567"<br>
+#             }<br>
+#         ],<br>
+#         "status": "Data added successfully done."<br>
+#     }<br>
+# }<br>
+<b>##### -----------------------------------------------------</b><br><br><br>
+
+<b>##### -----------------------------------------------------</b><br>
+<h1>#### --- delete_data<br></h1>
+<h2>## url == http://127.0.0.1:8000/delete_data/</h2>
+
+<h3>## method == POST</h3>
+
+<h3>## slug<br></h3>
+# id =2<br><br>
+
+<h3>## Response<br></h3>
+# {<br>
+#     "status": 200,<br>
+#     "payload": {<br>
+#         "data": [<br>
+#             {<br>
+#                 "id": 1,<br>
+#                 "name": "pradip",<br>
+#                 "email": "pradip@gmail.com",<br>
+#                 "password": "pradip12345678"<br>
+#             },<br>
+#             {<br>
+#                 "id": 3,<br>
+#                 "name": "roshan",<br>
+#                 "email": "roshan@gmail.com",<br>
+#                 "password": "rohan1234567"<br>
+#             }<br>
+#         ],<br>
+#         "status": "Data deleted successfully done."<br>
+#     }<br>
+# }<br>
+<b>##### -----------------------------------------------------<br></b><br><br><br><br>
+
+
+
+
+
+<b>##### -----------------------------------------------------</b><br>
+<h2>#### --- update_data<br></h2>
+<h3>## url == http://127.0.0.1:8000/update_data/<br><br></h3>
+
+## method == POST<br>
+
+<h3>## slug<br></h3>
+# id = 1<br>
+# name =<br>
+# email=<br>
+# password<br><br>
+
+<h3>## Response<br></h3>
+# {<br>
+#     "status": 200,<br>
+#     "payload": {<br>
+#         "data": [<br>
+#             {<br>
+#                 "id": 1,<br>
+#                 "name": "sdfghjk",<br>
+#                 "email": "asdfgh@gmail.com",<br>
+#                 "password": "asdfghjk"<br>
+#             },<br>
+#             {<br>
+#                 "id": 3,<br>
+#                 "name": "roshan",<br>
+#                 "email": "roshan@gmail.com",<br>
+#                 "password": "rohan1234567"<br>
+#             }<br>
+#         ],<br>
+#         "status": "Data updated successfully done."<br>
+#     }<br>
+# }<br>
+<b>##### -----------------------------------------------------<br></b>
+</p>
+
+</body>
+</html>
